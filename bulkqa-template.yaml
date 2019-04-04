@@ -87,7 +87,7 @@ Parameters:
 
   pLabelCorpusKey:
     Type: String
-    Default: 'bulkqa/smallsample.csv' #TODO Change to ML blog endpoint
+    Default: 'bulkqa/sample-data/smallsample.csv' #TODO Change to ML blog endpoint
     Description: S3 Key of the Label Corpus for the deployment package
     AllowedPattern: ^[a-zA-Z0-9-\-_/.]*$
     ConstraintDescription: Must be a valid S3 key, or blank
